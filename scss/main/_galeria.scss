@@ -1,4 +1,4 @@
-/*MAIN*/
+/*HEADER*/
 /*----Galería----*/
 .container{ 
     figure{
@@ -29,10 +29,7 @@
             opacity: 0;
             visibility: hidden;
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex-column-center;
         }
     }
 }
