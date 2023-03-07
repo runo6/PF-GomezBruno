@@ -1,0 +1,29 @@
+/*HEADER*/
+.navbar-brand{ 
+    img{
+        width: 250px;
+        margin-left: 50px;
+    }
+} 
+
+#navbarNav{
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.navbar{
+    background-color: $terceary_color;
+}
+
+.nav-link{
+    padding: 25px !important;
+}
+
+@media screen and (max-width:300px){
+    .navbar-brand{ 
+        img{
+            width: 200px;
+            margin: 25px;
+        }
+    }
+}

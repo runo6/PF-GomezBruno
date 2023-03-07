@@ -1,0 +1,26 @@
+/*----Colores----*/
+.green{
+    color: $primary_color !important;
+}
+
+.white-opaque{
+    color: $terceary_color !important;
+}
+
+.bg-green{
+    background-color: $primary_color !important;
+}
+
+.bg-white-opaque{
+    background-color: rgba(239,234,225,0.3) !important;
+}
+
+.btn-primary{
+    background-color: $secondary_color;
+    border-color: $primary_color;
+}
+
+.btn-primary:hover{
+    background-color: $primary_color;
+    border-color: $secondary_color;
+}
