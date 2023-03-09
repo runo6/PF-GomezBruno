@@ -30,6 +30,7 @@
             visibility: hidden;
             text-align: center;
             @include flex-column-center;
+            flex-direction: column;
         }
     }
 }
