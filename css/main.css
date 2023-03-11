@@ -18,18 +18,7 @@
   padding: 25px !important;
 }
 
-@media screen and (max-width: 400px) {
-  .navbar-brand img {
-    margin-left: 0px;
-  }
-  .navbar-brand {
-    margin: 0px;
-  }
-  .container-fluid {
-    flex-direction: column;
-  }
-}
-/*HEADER*/
+/*MAIN*/
 /*----Galería----*/
 .container figure {
   position: relative;
@@ -89,22 +78,6 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 800px) {
-  .contenedor figure .capa h3 {
-    font-size: 30px;
-  }
-  .contenedor figure .capa p {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 300px) {
-  .contenedor figure .capa h3 {
-    font-size: 20px;
-  }
-  .contenedor figure .capa p {
-    font-size: 15px;
-  }
-}
 /*----Contacto----*/
 .bg-contacto {
   background-image: url(https://images.unsplash.com/photo-1529485726363-95c8d62f656f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
@@ -114,25 +87,11 @@
   padding: 50px;
 }
 
-@media screen and (max-width: 800px) {
-  .screen {
-    margin: 0px !important;
-  }
-}
 /*----FAQ----*/
 .faq-tamaño {
   max-width: 800px;
 }
 
-@media screen and (max-width: 800px) {
-  .faq-tamaño {
-    padding: 0px;
-    padding-bottom: 15px;
-  }
-  .p-5 {
-    padding: 0 !important;
-  }
-}
 /*----Colores----*/
 .green {
   color: #3D806D !important;
@@ -226,6 +185,53 @@
   font-size: 15px;
 }
 
+/*MEDIA QUERIES*/
+/*----header----*/
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+    margin-left: 0px;
+  }
+  .navbar-brand {
+    margin: 0px;
+  }
+  .container-fluid {
+    flex-direction: column;
+  }
+}
+/*----galería----*/
+@media screen and (max-width: 800px) {
+  .contenedor figure .capa h3 {
+    font-size: 30px;
+  }
+  .contenedor figure .capa p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .contenedor figure .capa h3 {
+    font-size: 20px;
+  }
+  .contenedor figure .capa p {
+    font-size: 15px;
+  }
+}
+/*----contacto----*/
+@media screen and (max-width: 800px) {
+  .screen {
+    margin: 0px !important;
+  }
+}
+/*----faq----*/
+@media screen and (max-width: 800px) {
+  .faq-tamaño {
+    padding: 0px;
+    padding-bottom: 15px;
+  }
+  .p-5 {
+    padding: 0 !important;
+  }
+}
+/*----footer----*/
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;

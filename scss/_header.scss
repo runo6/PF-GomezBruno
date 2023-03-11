@@ -18,17 +18,3 @@
 .nav-link{
     padding: 25px !important;
 }
-
-@media screen and (max-width:400px){
-    .navbar-brand{ 
-        img{
-            margin-left: 0px;
-        }
-    }
-    .navbar-brand{ 
-        margin: 0px;
-    }
-    .container-fluid{
-        flex-direction: column;
-    }
-}

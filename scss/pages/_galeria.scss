@@ -1,4 +1,4 @@
-/*HEADER*/
+/*MAIN*/
 /*----Galería----*/
 .container{ 
     figure{
@@ -99,48 +99,6 @@
                 width: 100%;
                 max-width: 220px;
                 margin-bottom: 50px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width:800px){
-    .contenedor{ 
-        figure{ 
-            .capa{ 
-                h3{
-                    font-size: 30px;
-                }
-            }
-        }
-    }
-    .contenedor{ 
-        figure{ 
-            .capa{ 
-                p{
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width:300px){
-    .contenedor{ 
-        figure{ 
-            .capa{ 
-                h3{
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-    .contenedor{ 
-        figure{ 
-            .capa{ 
-                p{
-                    font-size: 15px;
-                }
             }
         }
     }
